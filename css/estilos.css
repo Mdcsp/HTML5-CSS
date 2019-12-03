@@ -1,0 +1,51 @@
+
+header{
+	background: black
+;
+	height: 130px;
+
+}
+
+nav{
+
+	background: #FF9F44;
+	height: 130px;
+	width: 300px;
+}
+
+#banner{
+	height: 400px;
+	background: #FFE5D2;
+
+}
+
+#blog{
+	height: 1000px;
+	background: #FFE5D2;
+
+}
+
+#blog  article{
+
+	width: 300px;
+	background: white;
+	float: left;
+	margin: 10px;
+
+}
+
+aside{
+
+	width: 200px;
+	height: 400px;
+	background: #FFA465;
+	color:black;
+
+}
+
+footer{
+	height: 50px;
+	background: black;
+	color: white;
+
+}

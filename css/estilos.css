@@ -1,6 +1,6 @@
 
 header{
-	background: black
+	background: #FFF2F8
 ;
 	height: 130px;
 
@@ -8,20 +8,20 @@ header{
 
 nav{
 
-	background: #FF9F44;
-	height: 130px;
+	background: #B8076A;
+	height: 140px;
 	width: 300px;
 }
 
 #banner{
 	height: 400px;
-	background: #FFE5D2;
+	background: #FBF4FF;
 
 }
 
 #blog{
 	height: 1000px;
-	background: #FFE5D2;
+	background: #FBF4FF;
 
 }
 
@@ -38,8 +38,8 @@ aside{
 
 	width: 200px;
 	height: 400px;
-	background: #FFA465;
-	color:black;
+	background: #9B0351;
+	color:white;
 
 }
 
@@ -48,4 +48,52 @@ footer{
 	background: black;
 	color: white;
 
+}
+
+aside li{
+
+	font-family: 'Quicksand', sans-serif;
+	list-style: square;
+
+	/* list-style-image: url("../img/banner.jpeg"); */
+}
+
+*{
+	font-family: 'Quicksand', sans-serif;
+
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	font-size: 50px;
+}
+
+h3{
+	font-size: 50px;
+}
+
+p{ 
+	/*    */
+	font-weight: bold; /* Bold es para colocar el texto en negrita*/
+	font-style: italic;  /* Cursiva */
+	font-variant: small-caps;
+	/* El valor small-caps le da una apariencia 
+	de mayusculas 
+	pero al mismo tamano de una minuscula*/
+	line-height: 50px; /* Alinear el parrafo*/
+	text-align: left;
+	letter-spacing: 3px;
+	word-spacing: 10PX;
+	text-indent: 30px;
+	text-transform: capitalize;
+
+}
+
+a{
+	text-decoration: none;
 }
